@@ -18,7 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto usa Poppins con fallback de sistema configurado vía `next/font`.
+
+## Reglas para Copilot Chat
+
+Para mantener consistencia en respuestas y cambios automáticos, consulta y adjunta: [`docs/copilot-rules.md`](./docs/copilot-rules.md)
+- En Copilot Chat: pega `@file docs/copilot-rules.md` al iniciar la conversación y pídele que siga esas reglas.
 
 ## Learn More
 
